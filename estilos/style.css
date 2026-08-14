@@ -41,7 +41,7 @@ main{
 
 #imagem{
     display: block;
-    background: #5f2c82 url(/imagens/pexels-jonathanborba-36299694.jpg) no-repeat;
+    background: #5f2c82 url(/imagens/pexels-back-img.jpg) no-repeat;
     height: 200px;
     background-size: cover;
     background-position: left bottom;
