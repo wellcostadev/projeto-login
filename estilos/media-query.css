@@ -11,7 +11,7 @@ Grandes telas: acima de 1200px
 
 @media screen and (min-width: 768px) and (max-width: 992px) {
     body{
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to top, #49a09d, #996516);
     }
     
     #login{
@@ -23,15 +23,28 @@ Grandes telas: acima de 1200px
         width: 30%;
         height: 100%;
     }
-    #form{
+    #formulario{
         float: right;
         width: 70%;
     }
+
+    form div.campo{
+        max-width: 300px;
+    }
+
+    form input[type=submit]{
+        max-width: 300px;
+    }
+
+    form a.botao{
+        max-width: 300px;
+    }
+
 }
 
 @media screen and (min-width: 992px) {
     body{
-        background-image: linear-gradient(to top, #49a09d, #5f2c82);
+        background-image: linear-gradient(to top, #49a09d, #996516);
     }
     
     #login{
@@ -44,12 +57,24 @@ Grandes telas: acima de 1200px
         height: 100%;
     }
     
-    #form{
+    #formulario{
         float: left;
         width: 50%;
     }
 
-    #form p{
+    #formulario p{
         font-size: 1.2em;
     }
+
+    form div.campo{
+        max-width: 300px;
+    }
+
+    form input[type=submit]{
+        max-width: 300px;
+    }
+
+    form a.botao{
+        max-width: 300px;
+    }    
 }
